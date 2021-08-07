@@ -10,7 +10,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 public class Login implements Task {
     private String strUser;
     private String strPassword;
-    Public Login(String strUser, String strPassword){
+    Login(String strUser, String strPassword){
         this.strUser = strUser;
         this.strPassword = strPassword;
     }
